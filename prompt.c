@@ -40,7 +40,7 @@ int main(int argc, char** argv){
 		add_history(input);
 
 		/*echo in put back to user*/
-		printf("no you're a %s\n", input);
+		printf("your input was %s\n", input);
 
 		/*free retrieved input*/
 		free(input);
